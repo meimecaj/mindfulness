@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import StartPage from "./StartPage/StartPage";
 import MoodHelp from "./MoodHelp/MoodHelp";
 import MeditationPage from "./MeditationPage/MeditationPage";
@@ -35,10 +35,10 @@ export default function App() {
           <Route path="/counting">
             <CountingPage />
           </Route>
-          <Route path="/:mood">
+          <Route path="/mindfulness/:mood">
             <MoodHelp />
           </Route>
-          <Route path="/">
+          <Route path="/mindfulness">
             <StartPage />
           </Route>
         </Switch>

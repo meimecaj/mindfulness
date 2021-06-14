@@ -9,7 +9,7 @@ export default function StartPage() {
   const [visibility, setVisibility] = useState("hidden");
 
   const routeChange = (path) => {
-    history.push(`/:${path}`);
+    history.push(`/mindfulness/:${path}`);
   };
 
   const animationRested = (isRested) => {
