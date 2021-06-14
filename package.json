@@ -1,0 +1,36 @@
+{
+  "name": "mindfulness-app",
+  "version": "1.0.0",
+  "description": "An app to help you relax",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meimecaj/mindfulness-app.git"
+  },
+  "keywords": [
+    "mindfulness"
+  ],
+  "author": "Mei Meçaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meimecaj/mindfulness-app/issues"
+  },
+  "homepage": "https://github.com/meimecaj/mindfulness-app#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-countdown-circle-timer": "^2.5.3",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-spring": "^9.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "parcel-bundler": "^1.12.5"
+  }
+}

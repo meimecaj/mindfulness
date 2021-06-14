@@ -1,0 +1,41 @@
+.meditation-page-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #a7c1d2;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+.trails-main {
+  font-weight: 100;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  padding: 0.5rem;
+  max-width: 80%;
+  text-align: justify;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #3f3a50;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.meditation-page-title {
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  margin-top: 50px;
+}

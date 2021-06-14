@@ -1,0 +1,101 @@
+.button {
+    display: inline-block;
+    text-decoration:none;
+    color: #FFF;
+    width: 150px;
+    height: 150px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #91B2C7 0%, #C79193 100%);    
+    background-image: linear-gradient(45deg, #91B2C7 0%, #C79193 100%);
+    transition: .4s;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.logo-button {
+    display: inline-block;
+    text-decoration:none;
+    color: #FFF;
+    width: 400px;
+    height: 400px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #91B2C7 0%, #C79193 100%);    
+    background-image: linear-gradient(45deg, #91B2C7 0%, #C79193 100%);
+    transition: .4s;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.button:hover{
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
+.logo-button:hover{
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    cursor: pointer;
+}
+
+.button-hidden {
+    visibility: hidden;
+}
+
+.button-visible {
+    visibility: visible;
+}
+
+.icon-button {
+    width: 200px;
+    height: 200px;
+    position: center;
+    padding-top: 50px;
+}
+
+.home-button {
+    display: inline-block;
+    text-decoration: none;
+    background: #5d8abe;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+.home-button:hover {
+    background: #7d9ad8;
+    cursor: pointer;
+}
+
+.icon-home {
+    width: 30px;
+    height: 30px;
+    position: center;
+    padding-bottom: 25px;
+}
+
+.button-container {
+    background-color: #A7C1D2;
+    margin: -8px -8px 0px -8px;
+}
