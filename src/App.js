@@ -11,7 +11,7 @@ import "./app.css";
 
 export default function App() {
   const navigateToHome = () => {
-    window.location.replace("/");
+    window.location.replace("/mindfulness");
   };
 
   return (
