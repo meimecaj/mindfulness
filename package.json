@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel public/index.html --out-dir docs",
     "predeploy": "rmdir /Q/S dist && parcel build public/index.html --public-url /mindfulness",
-    "build": "rmdir /Q/S docs && parcel build public/index.html --out-dir docs --public-url ./",
+    "build": "rmdir /Q/S docs && parcel build public/index.html --out-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
